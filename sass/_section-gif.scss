@@ -1,0 +1,15 @@
+.section__anime-img { 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    gap: 2rem;
+    font-size: 1.5rem;
+    object-fit: cover;
+
+    &__gif {
+        width: 50%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,22 @@
+@mixin aftermix($content, $color1, $color2) {
+    &::after {
+    content: $content;
+    position: absolute;
+    font-size: 4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    top: 50%;
+    left: -2rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $color1, $color2);
+    background-color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: block;
+    color: transparent;
+    letter-spacing: 2rem;
+    transition: all .2s;
+    transform: rotate(-90deg);
+    z-index: -3;
+    }
+ }
