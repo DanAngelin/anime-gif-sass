@@ -1,15 +1,13 @@
 @mixin aftermix($content, $color1, $color2) {
-    &::after {
+    &::before {
     content: $content;
     position: absolute;
-    font-size: 4rem;
+    font-size: 3rem;
     text-overflow: ellipsis;
     overflow: hidden;
-    top: 50%;
-    left: -2rem;
+    left: 0;
     font-weight: 700;
     background-image: linear-gradient(to right, $color1, $color2);
-    background-color: white;
     -webkit-background-clip: text;
     background-clip: text;
     display: block;
@@ -19,4 +17,10 @@
     transform: rotate(-90deg);
     z-index: -3;
     }
+ }
+
+ @mixin  flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }

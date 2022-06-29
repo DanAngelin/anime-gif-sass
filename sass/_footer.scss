@@ -1,11 +1,16 @@
 .footer {
     height: 5rem;
-    background-color: orangered;
+    background-image: radial-gradient(circle, $color-anime4-1, $color-anime4-2);
     text-align: center;
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: black;
         padding: 1rem 0;
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
     }
 }
