@@ -15,12 +15,10 @@ const headerImg = async(category) => {
         const htmlCategory = document.querySelector(`.${category}`);
         htmlCategory.innerHTML = "";
         htmlCategory.insertAdjacentHTML("afterbegin", `
-        <div class="flexbox">
             <h4>${anime1}</h4>
             <img src="${img1}" class="section__anime-img__gif">
             <h4>${anime2}</h4>
             <img src="${img2}" class="section__anime-img__gif">
-        </div>
         `)
     } catch(err) {
         console.log(err)

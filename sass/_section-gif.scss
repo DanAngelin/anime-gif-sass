@@ -8,6 +8,10 @@
     font-size: 1.5rem;
     object-fit: cover;
 
+    @include respond(phone) {
+        flex-direction: column-reverse;
+      }
+
     &__gif {
         width: 50%;
         object-fit: cover;

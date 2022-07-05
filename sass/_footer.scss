@@ -7,6 +7,10 @@
         font-size: 1.8rem;
         color: black;
         padding: 1rem 0;
+
+        @include respond(phone) {
+            font-size: 1rem;
+          }
     }
 
     a:link,

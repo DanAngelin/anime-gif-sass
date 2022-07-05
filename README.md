@@ -1,7 +1,8 @@
-# Anime SASS
-Anime SASS ==> HTML | SASS | API 
+# Anime SASS/SCSS
+<------  Anime SASS/SCSS  ------>
+<------ HTML | SASS | API ------>
 
-View live => [Live](https://dan-angelin.com/projects/anime-sass/)
+View live => [Click](https://dan-angelin.com/projects/anime-sass/)
 
 
-![Logo](https://i.imgur.com/Y7i4Fnj.jpg)
+![Logo](https://i.imgur.com/1OlIL98.jpg)
